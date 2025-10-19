@@ -5,6 +5,15 @@
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>Tiny Math – Early Years Maths App for iPhone & iPad</title>
 <meta name="description" content="Tiny Math helps children aged 2–6 build confidence with numbers through friendly word problems and emoji visuals. No ads, no data collection – just joyful learning." />
+
+<!-- Favicon & social previews -->
+<link rel="icon" href="tinyMathIconFullSize.jpg" type="image/jpeg">
+<meta property="og:title" content="Tiny Math – Early Years Maths App" />
+<meta property="og:description" content="A joyful early-years maths app for ages 2–6. No ads, no data collection – just fun learning!" />
+<meta property="og:image" content="https://tinymath.onrender.com/tinyMathIconFullSize.jpg" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tinymath.onrender.com" />
+
 <style>
 :root{
   --fg:#1e1e1e;--muted:#60636b;--bg:#fff;--brand:#4f46e5;--line:#ececec;--max:880px;
@@ -15,24 +24,13 @@ header,main,footer{padding:24px}
 .container{max-width:var(--max);margin:0 auto}
 nav a{margin-right:16px;text-decoration:none;color:var(--muted)}
 nav a:hover{color:var(--fg)}
-.hero{padding:56px 0 28px}
+.hero{padding:56px 0 28px;text-align:center}
+.hero img{width:140px;height:140px;border-radius:28px;margin-bottom:16px;object-fit:cover}
 .hero h1{font-size:clamp(28px,5vw,44px);line-height:1.15;margin:0 0 10px}
 .hero p{color:var(--muted);font-size:clamp(16px,2.6vw,18px);margin:0 0 18px}
 .badge{display:inline-block;background:#eef2ff;color:#3730a3;padding:6px 10px;border-radius:999px;font-size:13px;margin-bottom:12px}
 .cta{display:inline-block;background:var(--brand);color:#fff;padding:12px 16px;border-radius:12px;text-decoration:none;font-weight:600}
 .cta:hover{filter:brightness(1.05)}
-.grid{display:grid;grid-template-columns:1fr;gap:18px}
-@media(min-width:860px){.grid{grid-template-columns:1fr 1fr}}
-.card{border:1px solid var(--line);border-radius:16px;padding:18px}
-h2{font-size:clamp(22px,3.6vw,30px);margin:12px 0}
-h3{font-size:18px;margin:10px 0 6px}
-.small{color:var(--muted);font-size:14px}
-.section{padding:28px 0;border-top:1px solid var(--line)}
-.kicker{font-weight:700;color:#0f172a}
-ul{margin:10px 0 0 18px}
-a{color:#2563eb}
-a:hover{text-decoration:none}
-footer{border-top:1px solid var(--line);color:var(--muted)}
 </style>
 </head>
 <body>
@@ -48,6 +46,7 @@ footer{border-top:1px solid var(--line);color:var(--muted)}
 
 <main class="container">
   <section class="hero" id="about">
+    <img src="tinyMathIconFullSize.jpg" alt="Tiny Math Logo" />
     <span class="badge">Ages 2–6 · No ads · No data collection</span>
     <h1>Tiny Math — Joyful Early-Years Maths Practice</h1>
     <p><strong>Tiny Math</strong> helps children aged 2 to 6 explore the building blocks of maths through simple, friendly word problems and bright emoji visuals. No ads. No sign-ups. No distractions — just clear, confidence-building practice.</p>
